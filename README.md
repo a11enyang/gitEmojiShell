@@ -41,8 +41,8 @@ git clone https://github.com/a11enyang/gitEmojiShell.git
 该脚本只包含git commit的命令
 所以正常使用方式是:
 1.git add .
-2.~/sh/gc.sh
-3.输入commit内容
+2.~/sh/gc.sh 
+3.输入commit内容  "记得用双引号括起来"
 4.选择emoji类型
 5.选择commit类型
 6.git push
