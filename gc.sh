@@ -204,6 +204,6 @@ read input3
 
 
 
-IFS= read -r -p "请输入commit的内容(记得添加双引号): " input1
+IFS= read -e -r -p "请输入commit的内容: " input1
 gitCommit "$input1"
 
