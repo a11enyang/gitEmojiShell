@@ -203,7 +203,7 @@ read input3
 
 
 
-echo "请输入commit内容: "
-read input1
+
+IFS= read -r -p "请输入commit的内容: " input1
 gitCommit $input1
 
